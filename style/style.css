@@ -26,11 +26,11 @@
     cursor: pointer;
 }
 .btn:hover {
-    background: #ce141463;
+    background: #39ce14f0;
 }
-/* body style */
-body {
-    margin: 0 160px;
+/* header style */
+header {
+    padding: 0 160px;
     background-color: #D5D6D8;
 }
 
@@ -38,7 +38,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 24px 0px;
+    padding: 24px 0px;
 }
 nav button {
     padding: 15px 30px;
@@ -49,6 +49,7 @@ nav button {
 nav button:hover {
     background: #006a5028;
 }
+/* banner style */
 .banner {
     background: #006a503e;
     border-radius: 24px;
@@ -66,8 +67,14 @@ nav button:hover {
     font-size: 46px;
     margin: 16px 0 24px 0;
 }
+/* main style */
+main {
+    padding: 0 160px 80px 160px;
+    background-color: #D5D6D8;
+}
+/* card style */
 .card {
-    margin-top: 80px;
+    padding-top: 80px;
 }
 .card-items {
     display: flex;
@@ -85,6 +92,12 @@ nav button:hover {
     font-weight: bold;
     font-family: "Fira Sans";
     margin: 24px 0px 12px 0;
+}
+.card1-item img, .card2-item img, .card3-item img {
+    height: 64px;
+    width: 64px;
+    border: 0;
+    border-radius: 20px;
 }
 .card1-item {
     padding: 32px;
@@ -111,6 +124,7 @@ nav button:hover {
     border-radius: 8px;
     color: #fff;
     margin-top: 24px;
+    cursor: pointer;
 }
 .button2 {
     padding: 11px 20px;
@@ -119,6 +133,7 @@ nav button:hover {
     border-radius: 8px;
     color: #fff;
     margin-top: 24px;
+    cursor: pointer;
 }
 .button3 {
     padding: 11px 20px;
@@ -127,6 +142,10 @@ nav button:hover {
     border-radius: 8px;
     color: #fff;
     margin-top: 24px;
+    cursor: pointer;
+}
+.all-button:hover {
+    background: #ff000088;
 }
 .yunus {
     margin-top: 32px;
@@ -211,6 +230,9 @@ td select {
     color: #0e0e0eac;
     margin: 12px 0 12px 0;
 }
+.news-content h6 span {
+    margin-left: 15px;
+}
 .news-btn {
     margin-top: 35px;
 }
@@ -230,9 +252,66 @@ td select {
     margin: 0 12px 0 12px;
     font-size: 40px;
     font-weight: bold;
+    font-family: "Fira Sans";
+    cursor: pointer;
+}
+.donate-button:hover {
+    background: #ff000042
+}
+.donate-btn {
+    background: #09a15d6a;
 }
 .other-amount {
     background: #fff;
     margin: 32px 125px;
-    padding: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Fira Sans";
+    color: #0e0e0e94;
+}
+.subscribe {
+    background: #C6E4D6;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 24px;
+    margin-bottom: 80px;
+    padding: 80px 265px;
+}
+.subscribe-discription {
+    margin: 16px 0 24px 0;
+}
+.subscribe input[type = "text"] {
+    padding: 18px 40px;
+    width: 500px;
+    font-size: 16px;
+    border: 0;
+    background: #fff;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+.subscribe input[type = "submit"] {
+    padding: 18px 34px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 0  20px 20px 0;
+    background: #006A50;
+    position: relative;
+    margin-left: -10px;
+}
+.footer{
+    text-align: center;
+    padding: 50px 200px;
+
+}
+.footer h1{
+    padding: 50px 0 0px 0;
+    background: #fff;
+}
+.footer-social a {
+    margin-right: 15px;
+}
+hr {
+   margin: 30px 200px;
+   border: 1px solid #dddddd;
 }
