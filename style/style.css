@@ -214,3 +214,25 @@ td select {
 .news-btn {
     margin-top: 35px;
 }
+.donate {
+    text-align: center;
+    margin-top: 80px;
+}
+.donate p {
+    padding: 25px 90px;
+}
+.donate-button {
+    padding: 40px;
+    background-color: #fff;
+    color: #0e0e0ec2;
+    border: 0;
+    border-radius: 16px;
+    margin: 0 12px 0 12px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.other-amount {
+    background: #fff;
+    margin: 32px 125px;
+    padding: 20px;
+}
