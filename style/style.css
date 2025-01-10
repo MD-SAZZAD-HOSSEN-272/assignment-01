@@ -152,11 +152,16 @@ nav button:hover {
 .table {
     margin-top: 80px;
 }
+.table-style {
+
+    padding: 32px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 16px;
+}
 table {
     border-collapse: collapse;
     width: 100%;
-    background-color: #fff;
-    margin-top: 30px;
 }
 table tr th {
     border: 2px solid gray;
@@ -170,6 +175,42 @@ table tr td {
     padding: 20px;
     background-color: #fff;
 }
-option {
-    padding: 20px;
+td select {
+    padding: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: #09a15d5e;
+    margin-left: 80px;
+}
+.news {
+    margin-top: 80px;
+}
+.news-discription {
+    margin: 24px 0 32px 0;
+}
+.news-1 {
+    display: flex;
+    gap: 32px;
+    background-color: #fff;
+    padding: 48px;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+.news-1 img {
+    height: 300px;
+    width: 400px;
+    border-radius: 25px;
+}
+.news-content img {
+    height: 40px;
+    width: 134px;
+    margin-top: 12px;
+}
+.news-content h6 {
+    font-size: 16px;
+    color: #0e0e0eac;
+    margin: 12px 0 12px 0;
+}
+.news-btn {
+    margin-top: 35px;
 }
