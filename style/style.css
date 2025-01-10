@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+/* share style */
+.text-style-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+}
+.text-style-discription {
+    font-size: 16px;
+    font-family: "Fira Sans";
+    line-height: 24px;
+    color: #0e0e0ea9;
+}
+.btn {
+    background: #006a50;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #ce141463;
+}
+/* body style */
+body {
+    margin: 0 160px;
+    background-color: #D5D6D8;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0px;
+}
+nav button {
+    padding: 15px 30px;
+    color: #006A50;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.379);
+}
+nav button:hover {
+    background: #006a5028;
+}
+.banner {
+    background: #006a503e;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 80px 100px;
+}
+.banner-bangladesh2 {
+    font-size: 24px;
+    font-weight: normal;
+}
+.banner-title {
+    font-size: 46px;
+    margin: 16px 0 24px 0;
+}
+.card {
+    margin-top: 80px;
+}
+.card-items {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+    
+}
+.card-item {
+    padding: 24px;
+    background: #fff;
+    border-radius: 16px;
+}
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Fira Sans";
+    margin: 24px 0px 12px 0;
+}
+.card1-item {
+    padding: 32px;
+    background: #548ff552;
+    border-radius: 16px;
+}
+.card-discription {
+    margin-top: 24px;
+}
+.card2-item {
+    padding: 32px;
+    background: #C6E4D6;
+    border-radius: 16px;
+}
+.card3-item {
+    padding: 32px;
+    background: #F7EBCF;
+    border-radius: 16px;
+}
+.button1 {
+    padding: 11px 20px;
+    background: #5490F5;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 24px;
+}
+.button2 {
+    padding: 11px 20px;
+    background: #09A15C;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 24px;
+}
+.button3 {
+    padding: 11px 20px;
+    background: #FFC239;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 24px;
+}
+.yunus {
+    margin-top: 32px;
+    background-color: #fff;
+    padding: 48px 24px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+}
+.yunus-name {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Fira Sans";
+    line-height: 24px;
+    color: #0e0e0ecb;
+    margin: 12px 0 4px 0;
+}
+.yunus-title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e0e0e84;
+}
+.table {
+    margin-top: 80px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 30px;
+}
+table tr th {
+    border: 2px solid gray;
+    padding: 20px;
+    text-align: left;
+    background-color: #C6E4D6;
+    padding-top: 30px;
+}
+table tr td {
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: #fff;
+}
+option {
+    padding: 20px;
+}
