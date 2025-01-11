@@ -87,6 +87,9 @@ main {
     background: #fff;
     border-radius: 16px;
 }
+.card-item:hover {
+    background: #0080002f;
+}
 .card-item img {
     height: 62px;
     width: 62px;
