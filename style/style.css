@@ -198,10 +198,11 @@ table tr td {
 }
 td select {
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.335);
     font-weight: bold;
     background-color: #09a15d5e;
     margin-left: 80px;
+    outline: none;
 }
 .news {
     margin-top: 80px;
