@@ -201,14 +201,16 @@ table tr td {
     border: 1px solid gray;
     padding: 20px;
     background-color: #fff;
+    width: 80%;
 }
 td select {
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.335);
     font-weight: bold;
     background-color: #09a15d5e;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     outline: none;
+    text-align: center;
 }
 .news {
     margin-top: 80px;
@@ -310,6 +312,13 @@ td select {
     color: #fff;
     font-weight: bold;
     font-family: "Fira Sans";
+    cursor: pointer;
+}
+.subscribe input[type = "submit"]:hover {
+    background: #39ce14f0;
+}
+.subscribe form {
+    margin-bottom: 24px;
 }
 /* footer style  */
 .footer{
